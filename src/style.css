@@ -15,7 +15,13 @@
 	min-height: 100vh;
 }
 
+.filters-container {
+	display: flex;
+	flex-direction: column;
+}
+
 .activity-container {
+	margin: 2rem;
 }
 
 .activity {
@@ -27,4 +33,18 @@
 .link {
 	text-align: center;
 	width: 100%;
+}
+
+.generate-button {
+	border: none;
+	border-radius: 0.5rem;
+	background-color: hsl(203, 92%, 75%);
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition-duration: 100ms;
+}
+
+.generate-button:hover {
+	background-color: hsl(203, 92%, 65%);
 }
