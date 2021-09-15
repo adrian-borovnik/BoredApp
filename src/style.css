@@ -23,25 +23,15 @@ body {
 	margin: auto auto;
 }
 
-.filters-container {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-}
-
 .input-div {
 	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
-input,
-select {
-	width: 70%;
-}
-
-label {
+.input-div label {
 	display: inline-block;
-	width: 30%;
-	text-align: right;
 	padding-right: 1rem;
 }
 
