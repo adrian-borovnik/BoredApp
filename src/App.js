@@ -23,7 +23,7 @@ function App() {
 	return (
 		<div className='container'>
 			<h1>Bored App</h1>
-			{/* {render} */}
+			{render}
 			<Activity {...{ activity, type, link }}></Activity>
 			<button className='generate-button' onClick={getActivity}>
 				Generate
